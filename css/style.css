@@ -1,0 +1,62 @@
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+nav {
+	height: 50px;
+	background: black;
+}
+
+.header_div {
+	height: 300px;
+	background: DodgerBlue;
+}
+
+.top_row {
+	height: 120px;
+	width: 75%;
+	float: left;
+	background: black;
+}
+
+.clear_float {
+	clear: both;
+}
+
+.side_a {
+	width: 80%
+	float: left;
+}
+
+.side_b {
+	width: 20%;
+	height:; 200px;
+	background-color: black;
+	float: right;
+}
+
+.column1 {
+	height: 200px;
+	width: 25%;
+	float: left;
+	background: Aqua;
+	clear: both;
+}
+
+
+.column2 {
+	height: 200px;
+	width: 25%;
+	float: left;
+	background: Beige;
+	float: left;
+}
+
+.column3 {
+	height: 200px;
+	width: 25%;
+	float: left;
+	background: BurlyWood;
+	float: left;
+}
