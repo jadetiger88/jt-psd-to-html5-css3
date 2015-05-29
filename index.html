@@ -1,37 +1,114 @@
 <!DOCTYPE html>
-<header>
-	<title>
-		psdToHTML
-	</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</header>
-<body>
-	<header class="container">
-		<nav>
-		</nav>
-		<div class="header_div">
+<html>
+	<head>
+		<title>
+			psdToHTML
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/normalized.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+
+			<div class="container clearfix">
+				<a href="#" title="Return to home" id="logo">
+					<img src="img/logo.png"  alt="logo">
+				</a>
+
+				<nav>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="hero">
+				<div class="container clearfix"> 
+					<div id="hero-title">
+						<h1>Really Big Title 2.0</h1>
+						<h2>Simple and yet engaging and descriptive title</h2>
+						<div id="cta">
+							<a href="#" class="btn btn-large">Primary Call to Action</a>
+							<a href="#" class="btn btn-secondary">Seconday Action</a>
+						</div>
+					</div> <!-- hero title --> 
+
+					<img src="img/imac.png" alt="imac" id="hero-image">
+				</div>
+			</div>  <!-- hero --> 
+
+		</header>
+
+		<div id="primary-cta" class="container clearfix">
+			<section>
+				<div id="cta-column">
+					<div class="lead-in"> 
+						<h3>PSD to HTML5 &amp; CSS3</h3>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div> <!-- lead-in --> 
+
+					<div class="column">
+						<img src="img/dog1.png" alt="dog1">
+						<h4>A Cute poppy</h4>
+						<p>Nullam rutrum aliquam lectus sit amet auctor. Sed blandit arcu erat, quis accumsan lacus condimentum quis. Aliquam vitae leo ligula. Aenean lobortis dolor sit amet sem vehicula auctor. </p>
+					</div>
+
+					<div class="column">
+						<img src="img/dog2.png" alt="dog2">
+						<h4>A Cute poppy</h4>
+						<p>Nullam rutrum aliquam lectus sit amet auctor. Sed blandit arcu erat, quis accumsan lacus condimentum quis. Aliquam vitae leo ligula. Aenean lobortis dolor sit amet sem vehicula auctor. </p>
+					</div>
+
+					<div class="column">
+						<img src="img/dog3.png" alt="dog3">
+						<h4>A Cute poppy</h4>
+						<p>Nullam rutrum aliquam lectus sit amet auctor. Sed blandit arcu erat, quis accumsan lacus condimentum quis. Aliquam vitae leo ligula. Aenean lobortis dolor sit amet sem vehicula auctor. </p>
+					</div>
+
+				</div> <!-- cta-column --> 
+				<aside id="cta-aside">
+
+					<div class="widget">
+						<h4>Latest News</h4>
+						<h5>Dec 22, 2015</h5>
+						<p>Donec condimentum eros euismod nibh pretium vehicula. Sed ultricies, nisl id porta feugiat, odio sem egestas ipsum, in ultrices</p>
+					</div> <!-- widget --> 
+
+					<div class="widget">
+						<h4>Follow Us</h4>
+						<a href="#"><img src="img/twritter.jpeg" alt="twriter"></a>
+						<a href="#"><img src="img/facebook.png" alt="facebook"></a>
+						<a href="#"><img src="img/youtube.jpeg" alt="youtube"></a>
+					</div> <!-- widget --> 
+
+				</aside> <!--cta-aside --> 
+			</section>
+		</div> <!-- primary-cta --> 
+
+		<div id="secondary-cta">
+			<div class="container clearfix">
+				<h4>Keep up-to-date with the latest news from our company</h4>
+				<form>
+					<input type="email" placeholder="Enter your email here">
+					<input type ="submit" class="btn btn-small" value="Sign up">
+				</form>
 		</div>
-	</header>
-	<section class="container">
-		<aside>
-		<div class="side_a">	
-			<div class="top_row">
-			</div>
-			<div class="column1">
-			</div>
-			<div class="column2">
-			</div>
-			<div class="column3">
-			</div>
+		</div> <!-- econdary-cta --> 
+
+		<footer>
+			<div class="container clearfix">
+				<p>Copyright &copy; 2015 Jade Tiger</p>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
 		</div>
-		</aside>
-		<aside>
-			<div class="side_b">
-			</div>
-		</aside>
-		<div>
-		</div>
-	</section>
-	<footer lass="container">
-	</footer>
-</body>
+		</footer>
+	</body>
+</html>
